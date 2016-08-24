@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+header{ 
+	border: thick;
+	border-color: olive;
+	border-style : solid;
+}
+
+header h1{
+	text-align: center;
+}
+
+
+article{
+	margin-left:170px;
+	border-left: 1px solid olive;
+	padding: 10px;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+footer{
+	border: thick;
+	border-color: olive;
+	border-style : solid;
+}
+
+footer h1{
+	text-align: center;
+}
+
+#stepstoregister{
+	list-style-type: decimal;
+}
+
+#menubar{
+	text-indent: bold;
+	
+}
