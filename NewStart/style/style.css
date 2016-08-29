@@ -28,6 +28,8 @@ footer{
 	border: thick;
 	border-color: olive;
 	border-style : solid;
+	position:fixed;
+	bottom:0;
 }
 
 footer h1{
@@ -41,4 +43,62 @@ footer h1{
 #menubar{
 	text-indent: bold;
 	
+}
+
+#registerform{
+	border : 4px solid olive;
+	background-color : #D2D2D2;
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 800px;
+	padding : 10px;
+}
+
+#loginform{
+	border : 4px solid olive;
+	background-color : #D2D2D2;
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 800px;
+	padding : 10px;
+}
+
+lable{
+	margin-left: 400px;
+}
+
+#registerlabel{
+	font-size:22px;
+	font:bold; 
+}
+
+input{
+	font-size:large;
+	padding : 10px 10px;
+	position: relative;
+	width: 775px;
+}
+button:HOVER{
+	color:blue;
+}
+
+#registersubmit{
+	font-size:larger;
+	width: 800px;height: 30px
+}
+
+#registerdiv{
+	margin-left: 250px;
+	margin-right: 250px
+}
+
+#logindiv{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+label{
+	padding :10px 10px;
 }
